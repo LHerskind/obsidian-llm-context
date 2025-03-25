@@ -6,3 +6,19 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+/* LLM Context Plugin Styles */
+
+.llm-context-ribbon-class {
+    color: var(--interactive-accent);
+}
+
+.llm-context-instruction-textarea {
+    font-family: var(--font-monospace);
+    resize: vertical;
+}
+
+.llm-context-prompt-display {
+    font-family: var(--font-monospace);
+    font-size: 0.9em;
+}
